@@ -5,7 +5,7 @@ Quick way to start up a React Native project with:
 - react-navigation
 
 # Instructions
-1. Run `install.sh`
+1. Run `install.sh`. Make sure to confirm `Y` to overwrite certain files
 2. Manually add `flow-bin` with RN project's specific version
 3. Add `eslint-config-airbnb`'s dependencies:
   ```
@@ -22,6 +22,7 @@ Quick way to start up a React Native project with:
     "postversion": "react-native-version --skip-tag --never-amend",
   },
   ```
+5. Remove any unused files and directories e.g `App.js` and `__tests__`
 
 # Work In Progress
 - automate more stuff
